@@ -138,21 +138,27 @@
 
 
 
-  <meta name="description" content="linux常见日志文件 /var/log/boot.log 自检过程； /var/log/cron crontab守护进程crond所派生的子进程的动作； /var/log/maillog 发送到系统或从系统发出的电子邮件的活动； /var/log/syslog 要让系统生成syslog日志文件，需要在 /etc/rsyslog.conf 文件中加入： *.warning /var/log/sys">
+  <meta name="description" content="安装双系统windows+ubuntu1.下载镜像首先需要去ubuntu官网下载镜像文件 2.制作U盘镜像利用ultraiso将ubuntu镜像写入空U盘中  这里区分一下ultraiso和win32diskimager的区别ultraiso主要是写以iso为后缀的镜像fwin32diskimager主要是写以img为后缀的镜像，例如树莓派镜像  3.空出硬盘分区可以使用windows自带磁盘管理">
 <meta name="keywords" content="linux">
 <meta property="og:type" content="article">
-<meta property="og:title" content="linux日志文件">
-<meta property="og:url" content="http://yoursite.com/2019/06/29/linux日志文件/index.html">
+<meta property="og:title" content="安装双系统">
+<meta property="og:url" content="http://yoursite.com/2019/07/03/双系统ubuntu/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="linux常见日志文件 /var/log/boot.log 自检过程； /var/log/cron crontab守护进程crond所派生的子进程的动作； /var/log/maillog 发送到系统或从系统发出的电子邮件的活动； /var/log/syslog 要让系统生成syslog日志文件，需要在 /etc/rsyslog.conf 文件中加入： *.warning /var/log/sys">
+<meta property="og:description" content="安装双系统windows+ubuntu1.下载镜像首先需要去ubuntu官网下载镜像文件 2.制作U盘镜像利用ultraiso将ubuntu镜像写入空U盘中  这里区分一下ultraiso和win32diskimager的区别ultraiso主要是写以iso为后缀的镜像fwin32diskimager主要是写以img为后缀的镜像，例如树莓派镜像  3.空出硬盘分区可以使用windows自带磁盘管理">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="http://yoursite.com/uploads/linux日志文件/wtmp.jpg">
-<meta property="og:image" content="http://yoursite.com/uploads/linux日志文件/btmp.jpg">
-<meta property="og:updated_time" content="2019-06-29T03:19:38.616Z">
+<meta property="og:image" content="http://yoursite.com/uploads/双系统/ubuntu官网.jpg">
+<meta property="og:image" content="http://yoursite.com/2019/07/03/双系统ubuntu/uploads/双系统/ultraiso.png">
+<meta property="og:image" content="http://yoursite.com/2019/07/03/双系统ubuntu/uploads/双系统/安装过程1.jpg">
+<meta property="og:image" content="http://yoursite.com/2019/07/03/双系统ubuntu/uploads/双系统/主分区.jpg">
+<meta property="og:image" content="http://yoursite.com/2019/07/03/双系统ubuntu/uploads/双系统/boot分区.jpg">
+<meta property="og:image" content="http://yoursite.com/2019/07/03/双系统ubuntu/uploads/双系统/交换分区.jpg">
+<meta property="og:image" content="http://yoursite.com/2019/07/03/双系统ubuntu/uploads/双系统/home分区.jpg">
+<meta property="og:image" content="http://yoursite.com/2019/07/03/双系统ubuntu/uploads/双系统/安装引导器的设备.jpg">
+<meta property="og:updated_time" content="2019-07-03T13:53:25.147Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="linux日志文件">
-<meta name="twitter:description" content="linux常见日志文件 /var/log/boot.log 自检过程； /var/log/cron crontab守护进程crond所派生的子进程的动作； /var/log/maillog 发送到系统或从系统发出的电子邮件的活动； /var/log/syslog 要让系统生成syslog日志文件，需要在 /etc/rsyslog.conf 文件中加入： *.warning /var/log/sys">
-<meta name="twitter:image" content="http://yoursite.com/uploads/linux日志文件/wtmp.jpg">
+<meta name="twitter:title" content="安装双系统">
+<meta name="twitter:description" content="安装双系统windows+ubuntu1.下载镜像首先需要去ubuntu官网下载镜像文件 2.制作U盘镜像利用ultraiso将ubuntu镜像写入空U盘中  这里区分一下ultraiso和win32diskimager的区别ultraiso主要是写以iso为后缀的镜像fwin32diskimager主要是写以img为后缀的镜像，例如树莓派镜像  3.空出硬盘分区可以使用windows自带磁盘管理">
+<meta name="twitter:image" content="http://yoursite.com/uploads/双系统/ubuntu官网.jpg">
 
 
 
@@ -160,7 +166,7 @@
 
   
   
-  <link rel="canonical" href="http://yoursite.com/2019/06/29/linux日志文件/">
+  <link rel="canonical" href="http://yoursite.com/2019/07/03/双系统ubuntu/">
 
 
 
@@ -170,7 +176,7 @@
   };
 </script>
 
-  <title>linux日志文件 | Hexo</title>
+  <title>安装双系统 | Hexo</title>
   
 
 
@@ -396,7 +402,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/06/29/linux日志文件/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/07/03/双系统ubuntu/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="彭欣健">
@@ -413,7 +419,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">linux日志文件
+          <h1 class="post-title" itemprop="name headline">安装双系统
 
               
             
@@ -439,7 +445,7 @@
                 
               
 
-              <time title="创建时间：2019-06-29 09:46:07 / 修改时间：11:19:38" itemprop="dateCreated datePublished" datetime="2019-06-29T09:46:07+08:00">2019-06-29</time>
+              <time title="创建时间：2019-07-03 20:18:44 / 修改时间：21:53:25" itemprop="dateCreated datePublished" datetime="2019-07-03T20:18:44+08:00">2019-07-03</time>
             
 
             
@@ -496,16 +502,24 @@
       
 
       
-        <h2 id="linux常见日志文件"><a href="#linux常见日志文件" class="headerlink" title="linux常见日志文件"></a>linux常见日志文件</h2><ol>
-<li><strong>/var/log/boot.log</strong> 自检过程；</li>
-<li><strong>/var/log/cron</strong> crontab守护进程crond所派生的子进程的动作；</li>
-<li><strong>/var/log/maillog</strong> 发送到系统或从系统发出的电子邮件的活动；</li>
-<li><strong>/var/log/syslog</strong><br> 要让系统生成syslog日志文件，需要在 <strong>/etc/rsyslog.conf</strong> 文件中加入：<br> <code>*.warning /var/log/syslog</code><br> cento6以前的系统可能是 <strong>/etc/syslog.conf</strong> 文件。</li>
-<li><strong>/var/run/utmp</strong> (用于记录当前打开的会话）被 <strong><em>who</em></strong> 和 <strong><em>w</em></strong> 工具用来记录当前有谁登录以及他们正在做什么，而uptime用来记录系统启动时间。</li>
-<li><strong>/var/log/wtmp</strong> (用于存储系统连接历史记录）被 <strong><em>last</em></strong> 工具用来记录最后登录的用户的列表。<strong><em>所以我们可以通过统计字符找到某些用户的登录次数。</em></strong> 在/var/log/wtmp中，一次新的登录事件的特征是，第一个字段为‘7’，第三个字段是一个终端编号（或伪终端id），第四个字段为用户名。相关的登出事件会在第一个字段显示‘8’，第二个字段显示与登录一样的PID，而终端编号字段空白。<br><img src="/uploads/linux日志文件/wtmp.jpg" alt></li>
-<li><strong>/var/log/btmp</strong> 用于存储尝试连接系统历史记录。<br>在/var/log/btmp输出中，每个日志行都与一个失败的登录尝试相关（如使用不正确的密码，或者一个不存在的用户ID）。<br><img src="/uploads/linux日志文件/btmp.jpg" alt><br><em>以上三个文件可以通过utmpdump查看：</em><br><code>utmpdump /var/log/utmp</code></li>
-<li><strong>/var/log/lastlog</strong> 每次有一个用户登录时，login程序在文件lastlog中查看用户的UID。如果存在，则把用户上次登录、注销时间和主机名写到标准输出中，然后login程序在lastlog中记录新的登录时间，打开utmp文件并插入用户的utmp记录。<br><br><br>参考网站:<br><a href="https://www.jb51.net/os/RedHat/343795.html" target="_blank" rel="noopener">https://www.jb51.net/os/RedHat/343795.html</a><br><a href="https://www.cnblogs.com/wayne173/p/3768185.html" target="_blank" rel="noopener">https://www.cnblogs.com/wayne173/p/3768185.html</a></li>
+        <h2 id="安装双系统windows-ubuntu"><a href="#安装双系统windows-ubuntu" class="headerlink" title="安装双系统windows+ubuntu"></a>安装双系统windows+ubuntu</h2><h3 id="1-下载镜像"><a href="#1-下载镜像" class="headerlink" title="1.下载镜像"></a>1.下载镜像</h3><p>首先需要去<a href="http://www.ubuntu.com/download/desktop" target="_blank" rel="noopener">ubuntu官网</a>下载镜像文件<br><img src="/uploads/双系统/ubuntu官网.jpg" alt></p>
+<h3 id="2-制作U盘镜像"><a href="#2-制作U盘镜像" class="headerlink" title="2.制作U盘镜像"></a>2.制作U盘镜像</h3><p>利用<a href="https://cn.ultraiso.net" target="_blank" rel="noopener">ultraiso</a>将ubuntu镜像写入空U盘中<br><img src="uploads/双系统/ultraiso.png" alt></p>
+<blockquote>
+<p>这里区分一下ultraiso和win32diskimager的区别<br>ultraiso主要是写以iso为后缀的镜像<br>fwin32diskimager主要是写以img为后缀的镜像，例如树莓派镜像</p>
+</blockquote>
+<h3 id="3-空出硬盘分区"><a href="#3-空出硬盘分区" class="headerlink" title="3.空出硬盘分区"></a>3.空出硬盘分区</h3><p>可以使用windows自带<strong>磁盘管理</strong>工具或者<a href="http://www.diskgenius.cn" target="_blank" rel="noopener">diskgenius</a>对打算安装ubuntu的硬盘区域进行空闲处理。</p>
+<h3 id="4-重启进入bios"><a href="#4-重启进入bios" class="headerlink" title="4.重启进入bios"></a>4.重启进入bios</h3><p>重启进入bios，选择从U盘启动。不同型号笔记本进入的方式不一样，华硕是按F2,联想是按F12也有可能是用针捅某个洞。。。</p>
+<blockquote>
+<p>bios和uefi是两种不同启动引导方式，具体区别我很难讲清楚，如果是bios启动，在成功装完双系统后，可以通过easybcd修改默认启动顺序，但是uefi修改不了。</p>
+</blockquote>
+<h3 id="5-安装ubuntu系统"><a href="#5-安装ubuntu系统" class="headerlink" title="5.安装ubuntu系统"></a>5.安装ubuntu系统</h3><p>需要注意两点</p>
+<blockquote>
+<ol>
+<li>如果没有联网，不要选择安装第三方软件<br><img src="uploads/双系统/安装过程1.jpg" alt></li>
+<li>磁盘分区问题<br>在第三步的空闲磁盘上，分别分出/,/boot,swap和/home四个分区<br>根分区可能需要安装一些大型软件，建议三四十个GB吧<br><img src="uploads/双系统/主分区.jpg" alt><br>boot分区大概200MB或300MB<br><img src="uploads/双系统/boot分区.jpg" alt><br>交换分区的大小为主存的两倍（未考证为什么？）<br><img src="uploads/双系统/交换分区.jpg" alt><br>home分区主要存储平时用到的文件，如文档、视频等<br><img src="uploads/双系统/home分区.jpg" alt><br><strong><em>最关键的是安装启动引导器的设备要和/boot所在分区一样</em></strong><br><img src="uploads/双系统/安装引导器的设备.jpg" alt></li>
 </ol>
+</blockquote>
+<p>以上，完事，其它步骤都是一些基础配置。文中一些图片来自网络。</p>
 
       
     </div>
@@ -578,8 +592,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/11/16/C语言小知识/" rel="next" title="C语言小知识😂">
-                <i class="fa fa-chevron-left"></i> C语言小知识😂
+              <a href="/2019/06/29/linux日志文件/" rel="next" title="linux日志文件">
+                <i class="fa fa-chevron-left"></i> linux日志文件
               </a>
             
           </div>
@@ -587,10 +601,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/07/03/双系统ubuntu/" rel="prev" title="安装双系统">
-                安装双系统 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -762,7 +772,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#linux常见日志文件"><span class="nav-number">1.</span> <span class="nav-text">linux常见日志文件</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#安装双系统windows-ubuntu"><span class="nav-number">1.</span> <span class="nav-text">安装双系统windows+ubuntu</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-下载镜像"><span class="nav-number">1.1.</span> <span class="nav-text">1.下载镜像</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-制作U盘镜像"><span class="nav-number">1.2.</span> <span class="nav-text">2.制作U盘镜像</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-空出硬盘分区"><span class="nav-number">1.3.</span> <span class="nav-text">3.空出硬盘分区</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-重启进入bios"><span class="nav-number">1.4.</span> <span class="nav-text">4.重启进入bios</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-安装ubuntu系统"><span class="nav-number">1.5.</span> <span class="nav-text">5.安装ubuntu系统</span></a></li></ol></li></ol></div>
             
 
           </div>
